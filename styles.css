@@ -50,3 +50,14 @@ button {
 button:hover {
   background-color: #45a049;
 }
+
+footer {
+  margin-top: 20px;
+}
+
+.decorative-footer {
+  height: 50px;
+  background-color: #4CAF50;
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}

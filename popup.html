@@ -5,13 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notas Rápidas</title>
     <link rel="stylesheet" href="styles.css">
+
+    <!-- Descripción para SEO -->
+    <meta name="description" content="Extensión de Chrome para tomar notas rápidas.">
+    
+    <!-- Etiquetas Open Graph -->
+    <meta property="og:title" content="Notas Rápidas">
+    <meta property="og:description" content="Una sencilla extensión para tomar y guardar notas rápidas.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="icons/icon128.png">
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
 </head>
 <body>
+
+    <!-- Contenedor Principal -->
     <div class="container">
         <h1>Notas Rápidas</h1>
-        <textarea id="note" placeholder="Escribe tu nota aquí..."></textarea>
-        <button id="save">Guardar</button>
+        <textarea id="note" placeholder="Escribe tu nota aquí..." aria-label="Campo de texto para la nota"></textarea>
+        <button id="save" aria-label="Guardar la nota">Guardar</button>
     </div>
+
+    <!-- Footer -->
+    <footer aria-hidden="true">
+      <div class="decorative-footer"></div>
+    </footer>
+
+    <!-- Scripts -->
     <script src="popup.js"></script>
 </body>
 </html>
