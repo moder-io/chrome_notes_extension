@@ -11,7 +11,7 @@
 ## Instalación
 1. Clona o descarga este repositorio en tu máquina local.
    ```bash
-   git clone https://github.com/moder-io/image_downloader.git
+   git clone https://github.com/moder-io/chrome_notes_extension.git
    ```
 2. Abre Chrome y navega a `chrome://extensions/`.
 3. Activa el modo de "Desarrollador" en la esquina superior derecha.
